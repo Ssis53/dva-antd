@@ -1,0 +1,29 @@
+
+html, body, :global(#root) {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, ul, ol, dt, dd, dl, table, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+:global(.app) {
+    overflow: hidden;
+}

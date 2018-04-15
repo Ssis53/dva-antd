@@ -1,0 +1,76 @@
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu {
+    height: 50px;
+    line-height: 50px;
+    width: 33px;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 1px #363636;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuIcon {
+    color: #999;
+}
+
+.position {
+    font-size: 14px;
+    min-width: 59px;
+    padding: 0 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.title {
+    color: #999;
+    font-size: 14px;
+    padding: 0 1em;
+    min-width: 56px;
+    color: #efefef;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+}
+
+:global(.am-drawer-sidebar) {
+    background: #282828 !important;
+}
+
+.myList a {
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+.myList div:global(.am-list-item.am-list-item-middle) {
+    background: #282828;
+}
+
+.myList div:global(.am-list-line.am-list-line-multiple::after) {
+    content: none !important;
+}
+
+.myList div:global(.am-list-item.am-list-item-middle) {
+    border-bottom: 1px dotted #333;
+}
+
+.myList div:global(.am-list-body::after) {
+    content: none !important;
+}
+
+.myList div:global(.am-list-body::before) {
+    background-color: #222;
+    box-shadow: 0 1px 1px #363636;
+}

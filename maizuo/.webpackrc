@@ -1,0 +1,22 @@
+{
+    "extraBabelPlugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile",
+                "libraryDirectory": "es",
+                "style": true
+            }
+        ]
+    ],
+    "proxy": {
+        "/v4": {
+            "target": "https://m.maizuo.com",
+            "changeOrigin": true,
+            "pathRewrite": {
+                "^/v4": "v4"
+            }
+        }
+    },
+    "theme": "./theme.js"
+}

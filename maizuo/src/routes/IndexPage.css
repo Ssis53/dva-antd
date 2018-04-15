@@ -1,0 +1,50 @@
+.home {
+    background-color: #e1e1e1;
+    margin-top: 50px;
+}
+
+.item {
+    min-height: 50px;
+}
+
+img {
+    width: 100%;
+    height: 211px;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.info {
+    padding: 0px 14px;
+    overflow: hidden;
+    box-shadow: 0.5px 0.5px 1px #a8a8a8;
+    height: 50px;
+}
+
+.info div.left {
+    float: left;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 11px;
+}
+
+.info h6 {
+    font-weight: normal;
+}
+
+.scoll {
+    font-size: 18px;
+    float: right;
+    color: #f78360;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sub {
+    clear: both;
+    font-size: 12px;
+    color: #9a9a9a;
+    padding-top: 2px;
+}
